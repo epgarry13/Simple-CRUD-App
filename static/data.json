@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Portrait of Aunt Pepa",
+    "artist": "Pablo Picasso",
+    "image": "https://www.pablopicasso.org/images/paintings/portrait-of-aunt-pepa.jpg",
+    "description": "The Portrait of Aunt Pepa is one of the milestones in young Picasso's portrait work. The model is Josefa Ruiz Blasco (1825-1901), his father's sister. The undated oil was painted in 1896 during one of Picasso's study trips to Malaga with his family.",
+    "year": 1896,
+    "colors": [{"value": "Red", "mark_as_deleted": false}, {"value": "Yellow", "mark_as_deleted": false}, {"value": "Brown", "mark_as_deleted": false}]
+  },
+  {
+    "id": 2,
+    "title": "Guernica",
+    "artist": "Pablo Picasso",
+    "image": "https://www.pablopicasso.org/images/paintings/guernica.jpg",
+    "description": "Picasso painted Guernica at his home in Paris in response to the bombing of Guernica, a Basque Country town in northern Spain, by Nazi Germany and Fascist Italy at the request of the Spanish Nationalists. Upon completion, Guernica was exhibited at the Spanish display at the 1937 Paris International Exposition, and then at other venues around the world. The touring exhibition was used to raise funds for Spanish war relief. The painting soon became famous and widely acclaimed, and it helped bring worldwide attention to the Spanish Civil War.",
+    "year": 1937,
+    "colors": [{"value": "White", "mark_as_deleted": false}, {"value": "Black", "mark_as_deleted": false}]
+  },
+  {
+    "id": 3,
+    "title": "Science and Charity",
+    "artist": "Pablo Picasso",
+    "image": "https://www.pablopicasso.org/images/paintings/science-and-charity.jpg",
+    "description": "Picasso painted Science and Charity at age 16. The painting is considerably larger (almost two by two and a half meters) and equally stilted. With whatever its shortcomings it was thought sufficiently impressive to deserve an honorable mention when shown at the Exposicion General de Bellas Artes in Madrid in the spring of 1897, and a gold medal in provincial Malaga shortly afterwards. Equipped with a portentous allegorical title invented by Picasso's father Don Jose, who suggested the subject and posed for the doctor, it went one better than First Communion in supplementing a pious motif with the irresistible pathos of a full-dress deathbed scene. Deathbed scenes - especially scenes of expiring mothers - were popular all over Europe in the late nineteenth century and several pictures by contemporary Spanish artists have been suggested as sources for Science and Charity. But it is also likely that Picasso - or Don Jose - had seen a reproduction of Luke Fildes's The Doctor, a theatrically conceived, moralistic composition which enjoyed phenomenal celebrity when it was shown at the Royal Academy in London in 1891.",
+    "year": 1897,
+    "colors": [{"value": "Green", "mark_as_deleted": false}, {"value": "Red", "mark_as_deleted": false}, {"value": "Black", "mark_as_deleted": false}]
+  },
+  {
+    "id": 4,
+    "title": "The Starry Night Over The Rhone",
+    "artist": "Vincent van Gogh",
+    "image": "https://www.vincentvangogh.org/images/paintings/the-starry-night-over-the-rhone.jpg",
+    "description": "Starry Night Over the Rhone was painted at a spot on the banks of river which was only a minute or two's walk from the The Yellow House on the Place Lamartine which Van Gogh was renting at the time. The night sky and the effects of light at night provided the subject for some of his more famous paintings, including The Starry Night, the most famous Van Gogh night stars painting.",
+    "year": 1888,
+    "colors": [{"value": "Blue", "mark_as_deleted": false}, {"value": "Yellow", "mark_as_deleted": false}]
+  },
+  {
+    "id": 5,
+    "title": "Still life with Irises",
+    "artist": "Vincent van Gogh",
+    "image": "https://www.vincentvangogh.org/images/paintings/still-life-with-irises.jpg",
+    "description": "In Saint-Rémy, Van Gogh painted pink roses against a green ground, and here, violet irises against a yellow field. The painting betrays a renewed liveliness and intensity of color. Instead of toning down the contrasts in order to harmonize the different parts of the painting, as he sometimes did, Van Gogh has tried here, as he had done in Paris, to sharpen and heighten them.",
+    "year": 1890,
+    "colors": [{"value": "Blue", "mark_as_deleted": false}, {"value": "Yellow", "mark_as_deleted": false}, {"value": "Green", "mark_as_deleted": false}]
+  },
+  {
+    "id": 6,
+    "title": "The Night Cafe",
+    "artist": "Vincent van Gogh",
+    "image": "https://www.vincentvangogh.org/images/paintings/the-night-cafe.jpg",
+    "description": "The painting was executed on industrial primed canvas of size 30 (French standard). It depicts the interior of the cafe, with a half-curtained doorway in the center background leading, presumably, to more private quarters. Five customers sit at tables along the walls to the left and right, and a waiter in a light coat, to one side of a billiard table near the center of the room, stands facing the viewer.",
+    "year": 1888,
+    "colors": [{"value": "Red", "mark_as_deleted": false}, {"value": "Yellow", "mark_as_deleted": false}, {"value": "Green", "mark_as_deleted": false}]
+  },
+  {
+    "id": 7,
+    "title": "Landscape with Snow",
+    "artist": "Vincent van Gogh",
+    "image": "https://www.vincentvangogh.org/images/paintings/landscape-with-snow.jpg",
+    "description": "When Van Gogh arrived in Arles in February 1888 the ground was covered with snow due to record cold temperatures. At the time of this painting the snow had begun to melt. It's thought that this painting is one of his first paintings made in Arles. In a letter to his brother Theo about February 24, 1888, Van Gogh describes having completed three paintings in as many days, one of them, Landscape with Snow.",
+    "year": 1888,
+    "colors": [{"value": "White", "mark_as_deleted": false}, {"value": "Yellow", "mark_as_deleted": false}, {"value": "Blue", "mark_as_deleted": false}]
+  },
+  {
+    "id": 8,
+    "title": "The Mona Lisa",
+    "artist": "Leonardo Da Vinci",
+    "image": "https://www.leonardodavinci.net/images/gallery/the-mona-lisa.jpg",
+    "description": "This figure of a woman, dressed in the Florentine fashion of her day and seated in a visionary, mountainous landscape, is a remarkable instance of Leonardo's sfumato technique of soft, heavily shaded modeling. The Mona Lisa's enigmatic expression, which seems both alluring and aloof, has given the portrait universal fame.",
+    "year": 1503,
+    "colors": [{"value": "Red", "mark_as_deleted": false}, {"value": "Yellow", "mark_as_deleted": false}, {"value": "Black", "mark_as_deleted": false}]
+  },
+  {
+    "id": 9,
+    "title": "The Last Supper",
+    "artist": "Leonardo Da Vinci",
+    "image": "https://www.leonardodavinci.net/images/gallery/last-supper.jpg",
+    "description": "The Last Supper is Leonardo's visual interpretation of an event chronicled in all four of the Gospels (books in the Christian New Testament). The evening before Christ was betrayed by one of his disciples, he gathered them together to eat, tell them he knew what was coming and wash their feet (a gesture symbolizing that all were equal under the eyes of the Lord). As they ate and drank together, Christ gave the disciples explicit instructions on how to eat and drink in the future, in remembrance of him. It was the first celebration of the Eucharist, a ritual still performed.",
+    "year": 1495,
+    "colors": [{"value": "Red", "mark_as_deleted": false}, {"value": "Blue", "mark_as_deleted": false}, {"value": "White", "mark_as_deleted": false}, {"value": "Brown", "mark_as_deleted": false}]
+  },
+  {
+    "id": 10,
+    "title": "Madonna of the Yarnwinder",
+    "artist": "Leonardo Da Vinci",
+    "image": "https://www.leonardodavinci.net/images/gallery/madonna-of-the-yarnwinder.jpg",
+    "description": "One of the most interesting and complete sketches Leonardo ever did was for this painting; a close look shows this work was based around the geometric figures of triangles and ellipses. An excellent red chalk drawing of the Madonna's head and shoulders also exists in the Royal Collection at Windsor Castle.",
+    "year": 1498,
+    "colors": [{"value": "White", "mark_as_deleted": false}, {"value": "Blue", "mark_as_deleted": false}, {"value": "Red", "mark_as_deleted": false}, {"value": "Brown", "mark_as_deleted": false}]
+  }
+
+
+]

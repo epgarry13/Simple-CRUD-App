@@ -1,0 +1,92 @@
+{% extends 'layout.html' %}
+
+{% block navigation %}
+<nav class="navbar navbar-expand-sm navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a href="/" class="item">Home</a>
+        <form class=" item form-to-submit">
+          <div class="d-flex justify-content-center">
+              <div class="searchbar">
+                <input class="search-input" type="text" name="" placeholder="Search...">
+                <button class="button-style">
+                  <i class="fas fa-search"></i>
+                </button>
+                
+              </div>
+          </div>
+        </form>
+        <a href="/create" class="item">Create</a>
+      </div>
+    </div>
+  </div>
+</nav>
+{% endblock navigation %}
+
+
+{% block content %}
+  <div class = "create flex justify-content-center">
+    <div class="d-flex justify-content-center create-success-1"></div>
+    <div class="d-flex justify-content-center create-success-2"></div>
+  
+    <h3 class="create-header">Add to our archive!</h3>
+    <div class="create-body">
+      <form class="create-form"> 
+        <div class="form-group col-md-6 mt-3">
+          <label>Title</label>
+          <input type="text" class="form-control title-field" >
+        </div>
+        <div class="form-group col-md-6 mt-3">
+          <label>Artist</label>
+          <input type="text" class="form-control artist-field" >
+        </div>
+        <div class="form-group col-md-6 mt-3">
+          <label>Image (web url)</label>
+          <input type="text" class="form-control img-field">
+        </div>
+        <div class="form-group col-md-6 mt-3">
+          <label>Description</label>
+          <input type="text" class="form-control descr-field">
+        </div>
+        <div class="form-group col-md-6 mt-3">
+          <label>Year</label>
+          <input type="text" class="form-control year-field">
+        </div>
+        <div class="form-group col-md-6 mt-3">
+          <label>Colors (example: "blue, red, green")</label>
+          <input type="text" class="form-control colors-field">
+        </div>
+        <button type="submit" class="create-btn mt-5">Submit!</button>
+      </form>
+    </div>
+    <div class="warn"></div>
+  </div>
+{% endblock content %}
+
+{% block footer %}
+<span class="footer-text">ArtArch</span>
+{% endblock %}
+
+
+{% block js_file %}
+  <script src="{{ url_for('static', filename='create.js') }}"></script>
+{% endblock %}
+
+{% block js_data %}
+  <script>
+    const new_entry = JSON.parse('{{ new_entry|tojson }}')
+  </script>
+{% endblock %}
