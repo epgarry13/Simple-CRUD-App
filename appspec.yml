@@ -5,8 +5,6 @@ files:
     destination: /var/www/Simple-Crud-App
   - source: /
     destination: /home/ec2-user/Simple-Crud-App
-  - source: /conf/sample_app.conf
-    destination: /etc/httpd/conf.d
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
