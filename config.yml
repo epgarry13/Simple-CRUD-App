@@ -1,0 +1,8 @@
+branch-defaults:
+  master:
+    environment: Simple-CRUD-App-env
+global:
+  application_name: Simple-CRUD-App
+  default_region: us-east-2
+  profile: eb-cli
+  sc: git
