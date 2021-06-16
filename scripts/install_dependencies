@@ -1,3 +1,2 @@
 yum install -y httpd mod_wsgi.x86_64
-python install pip
 pip install -r /home/ec2-user/Simple-CRUD-App/requirements.txt
