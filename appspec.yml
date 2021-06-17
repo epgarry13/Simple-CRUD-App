@@ -1,16 +1,12 @@
+
 version: 0.0
 os: linux
-files:
-  - source: /app.wsgi
-    destination: /var/www/Simple-Crud-App
-  - source: /
-    destination: /home/ec2-user/Simple-Crud-App
+
 hooks:
-  ApplicationStart:
-    - location: scripts/start_server
-      timeout: 300
-      runas: root
+   - location: scripts/start_server
+     timeout: 300
+     runas: root
   ApplicationStop:
-    - location: scripts/stop_server
-      timeout: 300
-      runas: root
+   - location: scripts/stop_server
+     timeout: 300
+     runas: root
